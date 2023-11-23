@@ -1,0 +1,33 @@
+:root {
+    --bg: #F8FDCF;
+    --blue: #78C1F3;
+    --lightblue: #9BE8D8;
+    --lightgrey: #E2F6CA;
+}
+
+body {
+    background-color: var(--bg);
+}
+
+.nav {
+    background-color: var(--blue);
+}
+
+.home {
+    background-color: var(--lightblue);
+    min-height: 100vh;
+}
+
+.about {
+    background-color: var(--lightgrey);
+    min-height: 100vh;
+}
+
+.skill {
+    min-height: 100vh;
+    background-color: var(--bg);
+}
+.contact {
+    min-height: 100vh;
+    background-color: var(--lightblue);
+}
